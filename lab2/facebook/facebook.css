@@ -1,0 +1,284 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 100%;
+    background: color rgb(240, 242, 245);
+    font-size: 12px;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+}
+
+.login:hover{
+    background-color: #0e6fe6;
+}
+
+.content{
+    min-height: 640px;
+}
+
+.begin{
+    padding-bottom: 100px;
+    background: #f0f2f5;
+    min-width: 500px;
+    
+}
+
+.inside{
+    margin: 0 auto;
+    padding: 20px 0;
+    position: relative;
+    width: 980px;
+    display: flex;
+    flex-direction: row;
+    min-width: 500px;
+    padding-bottom: 112px;
+    padding-top:72px ; 
+}
+
+.main_sc{
+    box-sizing: border-box;
+    margin-right: 0;
+    padding-right: 32px;
+    width: 580px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.fb{
+    padding: 112px 0 16px;
+}
+
+.fb_pic{
+    height: 106px;
+    margin: -28px;
+}
+
+.text{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 17.5px;
+    line-height: 32px;
+    width: 500px;
+    padding-bottom: 20px;
+    text-rendering: optimizelegibility;
+    color: hwb(216 11% 87%);
+}
+    
+
+.notsobeuty_all_login{
+    height: 456px;
+    width: 396px;
+}
+
+.willbeb{
+    padding-bottom: 24px;
+    padding-top: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 20px 0 28px;
+}
+
+.willbeb2{
+   
+    text-align: center;
+}
+
+.enter{
+    display: inline-block;
+    padding: 6px 0;
+}
+.enter1{
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    background: #FFFFFF;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    height: 22px;
+    line-height: 16px;
+    vertical-align: middle;
+}
+
+.enter2{
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    background: #FFFFFF;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    height: 22px;
+    line-height: 16px;
+    vertical-align: middle;
+}
+
+.blue_green{
+    padding-top: 6px;
+    cursor: pointer;
+    display: inline-block;
+    box-sizing: content-box;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.login{
+    background-color: #0866ff;
+    border: 0;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    font-weight: bold;
+    color: #fff;
+    width: 365px;
+    margin: 0;
+}
+
+.forgot{
+    margin-top: 16px;
+}
+
+.notpass{
+    margin-top: 16px;
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.line{
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center;
+}
+
+.newacc{
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    background-color: #42b72a;
+    color: #fff;
+    border: 0;
+}
+
+.link{
+    font-size: 16px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.page{
+    color: black; 
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.end{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    height: 22vh;
+    direction: ltr;
+    line-height: 1.34;
+    word-wrap: break-word;
+    padding-top: 20px;
+    font-size: 12px;
+}
+
+.endmain{
+    width: 65%;
+    height: 100%;
+}
+
+.lang li{
+    display: inline-block;
+    padding-top: 8px;
+    padding-left: 10px;
+}
+
+li{
+    list-style-type: none;
+}
+
+
+li a{
+    font-size: 12px;
+    margin-left: 10px;
+    color: black;
+    opacity: 60%;
+}
+
+li a:visited{
+    color: black;
+}
+
+li button{
+    color: #4b4f56;
+    padding: 0 7px;
+    font-size: 14px;
+
+}
+hr{
+    width: 99%;
+    opacity: 30%;
+}
+.h{
+    font-size: 1px;
+    height: 8px;
+    margin-bottom: 8px; 
+    margin-top: 10px;
+}
+.o{
+    width: 100px;
+    margin-left: -20px;
+}
+
+.other li{
+    display: inline-block;
+    margin-bottom: 5px;
+    padding-right: 16px;
+    margin-left: 9px;
+}
+
+.copy{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 18px;
+}
+.othercopy{
+    font-size: 12px;
+    color: #737373;
+    font-family: inherit;
+}
+.vhod1:focus,
+.vhod2:focus {
+    border: 1px solid #0000ff; 
+    outline: none;
+}
+
+    @media (orientation: landscape) and (max-height: 500px) {
+    .header {
+      height: 90vmax;
+    }
+  }  
